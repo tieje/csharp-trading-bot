@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>csharp_trading_bot</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Alpaca.Markets" Version="3.9.1"/>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="5.0.0"/>
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0"/>
+  </ItemGroup>
+</Project>
